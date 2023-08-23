@@ -7,7 +7,7 @@ const Testimonials = () => (
 	<section
 		id="clients"
 		className={`${styles.paddingY} ${styles.flexCenter} flex flex-col relative`}>
-		<div />
+		<div className="absolute z-0 w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient" />
 
 		<div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 z-[1]">
 			<h1 className={styles.heading2}>
